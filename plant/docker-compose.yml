@@ -1,0 +1,8 @@
+version: '3'
+services:
+  etsy_seo_bot:
+    build: .docker/
+    volumes:
+      - .:/app
+    ports:
+      - "80:80"

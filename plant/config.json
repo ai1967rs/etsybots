@@ -1,0 +1,6 @@
+{
+    "username": "your_username",
+    "password": "your_password",
+    "chrome_driver_path": "/path/to/chromedriver",
+    "timeout": 10
+}

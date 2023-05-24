@@ -1,0 +1,17 @@
+import unittest
+from src.bots.EtsyBot import EtsyBot
+
+class TestEtsyBot(unittest.TestCase):
+    def test_login(self):
+        bot = EtsyBot()
+        bot.login()
+        # TODO: Add assertions to check if the login was successful
+
+    def test_logout(self):
+        bot = EtsyBot()
+        bot.login()
+        bot.logout()
+        # TODO: Add assertions to check if the logout was successful
+
+if __name__ == '__main__':
+    unittest.main()
